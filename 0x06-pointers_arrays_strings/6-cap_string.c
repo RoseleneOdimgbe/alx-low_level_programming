@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-  * cap_string -this is the main  function
+  * cap_string - this is the main  function
   *
-  * @str: the function parameter of the string
+  * @str: this is the function parameter of the string
   *
   * Return: Void.
   */
