@@ -1,19 +1,14 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-
 
 /**
  * main - this multiplies two positive numbers
- * @argc: the n arguments
- * @argv: the args
- * Return: integer
+ * @argc: the n argument
+ * @argv: args
+ * Return: int
  */
 
 int main(int argc, char *argv[])
-
 {
-
 unsigned long mul;
 int i, j;
 	if (argc != 3)
@@ -29,8 +24,7 @@ int i, j;
 		}
 
 	}
-	mul = atol(argv[1]) *atol(argv[2]);
+	mul = atol(argv[1]) * atol(argv[2]);
 	printf("%lu\n", mul);
 return (0);
-
 }
