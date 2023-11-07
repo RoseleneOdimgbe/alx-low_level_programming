@@ -2,6 +2,11 @@
 #define _DOG_H_
 
 /**
+ * dog_t - alias for struct dog
+ */
+typedef struct dog dog_t;
+
+/**
  * struct dog - stores information of a dog
  * @name: name of the dog
  * @age: age of the dog
