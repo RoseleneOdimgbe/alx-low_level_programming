@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * *add_dnodeint_end - this function adds a
- * new node to end of list
- *@head: this is the pointer to
- * pointer of head of linked list
+ * *add_dnodeint_end - this function adds new node to end of list
+ *
+ *@head: the pointer to pointer of head of linked list
  *@n: the const int pointer
+ *
  * Return: address of new element, or NULL if failed
  */
 
@@ -36,5 +36,4 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 		newnode->next->prev = newnode;
 
 	return (newnode);
-
 }
